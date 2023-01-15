@@ -1,0 +1,8 @@
+.hero{
+    background-image: url(../../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+}

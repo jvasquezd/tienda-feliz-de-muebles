@@ -1,0 +1,21 @@
+.aboutus{
+    /* background-image: linear-gradient( to right, #000 50%, red 100%); */
+    background-image: linear-gradient( to right, transparent 50%, var(--secondary-theme-color) 50%, var(--secondary-theme-color) 100%),
+    url(../../img/nosotros.jpg);
+    background-position: left center;
+    padding: 6.25rem 0;
+    background-repeat: no-repeat;
+    background-size: 100, 75rem;
+}
+
+.aboutus__body{
+    grid-column: 2/3;
+}
+
+.aboutus__title{
+    color: #fff;
+}
+
+.aboutus__text{
+    color :#fff
+}

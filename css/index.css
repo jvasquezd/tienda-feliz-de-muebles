@@ -1,0 +1,45 @@
+@import './modules/variables.css';
+@import './modules/utils.css';
+/* @import './modules/animations.css'; */
+@import './modules/layout.css';
+@import './modules/header.css';
+@import './modules/nav.css';
+@import './modules/hero.css';
+@import './modules/list.css';
+@import './modules/cards.css';
+@import './modules/category.css';
+@import './modules/aboutus.css';
+
+/* @import './modules/buttons.css'; */
+@import './modules/footer.css';
+
+
+.body{
+    margin: 0;
+    font-family: var(--primary-font-family);
+    box-sizing: border-box;
+    line-height: 2;
+    /* Ubicar el footer abajo */
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+.main {
+    overflow: hidden;
+}
+
+
+
+
+/* Display inline y block
+A un elemento que tiene la propiedad inline, no se
+le puede aplicar las propiedades de width y height. En
+cambio a los elementos display:block si se les puede aplicar
+esas propiedades.
+
+inline: se colocan uno al lado del otro(no se le puede poner
+propiedades de width y height)
+block: uno debajo del otro y se le puede poner propiedades width y height
+inline-block: se colocan a la derecha 
+*/
