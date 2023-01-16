@@ -8,7 +8,9 @@
     <!-- <link rel="stylesheet" href="./css/normalize.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="./css/index.css" />
 
 </head>
@@ -16,7 +18,7 @@
 <body class="body">
     <header class="header">
         <!-- Una pagina web solo puede tener una etiqueta h1 -->
-        <h1 class="header__title">Nombre <span>Pagina</span></h1>
+        <h1 class="header__title">Tienda Feliz de <span>Muebles</span></h1>
     </header>
     <!-- El nombre del id solo se puede usar una vez en toda la pagina -->
     <!-- No se puede tener 2 ids dentro de una pagina Ejemplo = id="navegacion segundo-id" -->
@@ -39,10 +41,54 @@
 
 
         <section class="section">
-            
-            <div class="container">
-                <h2 class="section__title">Nombre pagina</h2>
 
+            <div class="container">
+                <h2 class="section__title">Contacto</h2>
+                <form class="form" action="">
+                    <fieldset class="form__fieldset">
+                        <legend class="form__legend">Tus Datos</legend>
+                        <div class="form__field">
+                            <label class="form__label" for="name">Nombre: </label>
+                            <input class="form__input" type="text" name="name" id="name" placeholder="Coloca tu nombre" />
+                        </div>
+                        <div class="form__field">
+                            <label class="form__label" for="business">Asunto: </label>
+                            <input class="form__input" type="text" name="business" id="business" placeholder="Tu Asunto" />
+                        </div>
+                        <div class="form__field">
+                            <label class="form__label" for="email">Email: </label>
+                            <input class="form__input" type="tel" name="email" id="email" placeholder="Tu Email" />
+                        </div>
+                        <div class="form__field">
+                            <label class="form__label" for="phone">Telefono: </label>
+                            <input class="form__input" type="tel" name="phone" id="phone" placeholder="Tu telefono" />
+                        </div>
+                        <div class="form__field">
+                            <label class="form__label" for="message">Mensaje: </label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="form__fieldset">
+                        <legend class="form__legend">Pais</legend>
+                        <div class="form__field">
+                            <label class="form__label" for="country">Pais: </label>
+                            <select name="country" id="country">
+                                <option value="">-- Seleccione --</option>
+                                <option value="">Mexico</option>
+                                <option value="">Perú</option>
+                                <option value="">Colombia</option>
+                                <option value="">Argentina</option>
+                                <option value="">España</option>
+                                <option value="">Chile</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="form__fieldset">
+                        <legend class="form__legend">Información Extra</legend>
+                    </fieldset>
+                </form>
 
             </div>
         </section>
@@ -63,7 +109,7 @@
                     </ul>
                 </nav>
             </div>
-    
+
             <div class="footer__section">
                 <h3 class="footer-nav__section-title">Sobre Nosotros</h3>
                 <nav class="footer-nav">
@@ -76,7 +122,7 @@
                     </ul>
                 </nav>
             </div>
-    
+
             <div class="footer__section">
                 <h3 class="footer-nav__section-title">Soporte</h3>
                 <nav class="footer-nav">
