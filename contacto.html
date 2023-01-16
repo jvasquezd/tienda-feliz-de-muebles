@@ -74,20 +74,41 @@
                         <div class="form__field">
                             <label class="form__label" for="country">Pais: </label>
                             <select name="country" id="country">
-                                <option value="">-- Seleccione --</option>
-                                <option value="">Mexico</option>
-                                <option value="">Perú</option>
-                                <option value="">Colombia</option>
-                                <option value="">Argentina</option>
-                                <option value="">España</option>
-                                <option value="">Chile</option>
+                                <option disabled value="">-- Seleccione --</option>
+                                <option value="MX">Mexico</option>
+                                <option value="PR">Perú</option>
+                                <option value="CO">Colombia</option>
+                                <option value="AR">Argentina</option>
+                                <option value="ES">España</option>
+                                <option value="CL">Chile</option>
                             </select>
                         </div>
                     </fieldset>
 
                     <fieldset class="form__fieldset">
                         <legend class="form__legend">Información Extra</legend>
+                        <div class="form__field">
+                            <label for="client">Cliente</label>
+                            <input type="radio" name="extinf" id="client">
+                        </div>
+                        <div class="form__field">
+                            <label for="supplier">Proveedor</label>
+                            <input type="radio" name="extinf" id="supplier">
+                        </div>
+                        <div class="form__field">
+                            <label for="category">Categioria de Interes</label>
+                            <input list="categories" name="categories">
+                            <datalist id="categories">
+                                <option value="Cocina"/>
+                                <option value="Exterior"/>
+                                <option value="Oficina"/>
+                                <option value="Televisión"/>
+                            </datalist>
+                        </div>
                     </fieldset>
+
+                    <input type="submit" value="Enviar Formulario">
+
                 </form>
 
             </div>
