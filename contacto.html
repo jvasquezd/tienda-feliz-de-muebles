@@ -47,23 +47,23 @@
                 <form class="form" action="">
                     <fieldset class="form__fieldset">
                         <legend class="form__legend t-align-center">Tus Datos</legend>
-                        <div class="form__field">
+                        <div class="form__field f-elements">
                             <label class="form__label" for="name">Nombre: </label>
                             <input class="form__input" type="text" name="name" id="name" placeholder="Coloca tu nombre" required/>
                         </div>
-                        <div class="form__field">
+                        <div class="form__field f-elements">
                             <label class="form__label" for="business">Asunto: </label>
                             <input class="form__input" type="text" name="business" id="business" placeholder="Tu Asunto" required/>
                         </div>
-                        <div class="form__field">
+                        <div class="form__field f-elements">
                             <label class="form__label" for="email">Email: </label>
                             <input class="form__input" type="tel" name="email" id="email" placeholder="Tu Email" required/>
                         </div>
-                        <div class="form__field">
+                        <div class="form__field f-elements">
                             <label class="form__label" for="phone">Telefono: </label>
                             <input class="form__input" type="tel" name="phone" id="phone" placeholder="Tu telefono" required/>
                         </div>
-                        <div class="form__field">
+                        <div class="form__field f-elements">
                             <label class="form__label" for="message">Mensaje: </label>
                             <textarea name="message" id="message" cols="30" rows="10"></textarea>
                         </div>
@@ -71,7 +71,7 @@
 
                     <fieldset class="form__fieldset">
                         <legend class="form__legend t-align-center">Pais</legend>
-                        <div class="form__field">
+                        <div class="form__field f-elements">
                             <label class="form__label" for="country">Pais: </label>
                             <select name="country" id="country">
                                 <option disabled value="">-- Seleccione --</option>
@@ -87,16 +87,16 @@
 
                     <fieldset class="form__fieldset">
                         <legend class="form__legend t-align-center">Información Extra</legend>
-                        <div class="form__field">
-                            <label for="client">Cliente</label>
+                        <div class="form__field f-elements">
+                            <label class="form__label" for="client">Cliente</label>
                             <input type="radio" name="extinf" id="client" />
                         </div>
-                        <div class="form__field">
-                            <label for="supplier">Proveedor</label>
+                        <div class="form__field f-elements">
+                            <label class="form__label" for="supplier">Proveedor</label>
                             <input type="radio" name="extinf" id="supplier" />
                         </div>
-                        <div class="form__field">
-                            <label for="category">Categioria de Interes</label>
+                        <div class="form__field f-elements">
+                            <label class="form__label" for="category">Categioria de Interes</label>
                             <input list="categories" name="categories" required />
                             <datalist id="categories">
                                 <option value="Cocina"/>
@@ -107,7 +107,7 @@
                         </div>
                     </fieldset>
 
-                    <input type="submit" value="Enviar Formulario">
+                    <input class="form__submit t-align-center" type="submit" value="Enviar Formulario">
 
                 </form>
 

@@ -1,12 +1,12 @@
 .form{
     max-width: 600px;
     margin: 0 auto;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .form__fieldset{
     border: 1px solid black;
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
 }
 
 .form__legend{
@@ -19,4 +19,36 @@
     font-weight: 900;
     padding: 0.625rem;
     margin-bottom: 2.5rem;
+}
+.form__field{
+    margin-bottom: 1.25rem;
+}
+
+.form__label{
+    flex-basis: 6.25rem;
+}
+
+.form__field input:not([type="radio"]),
+.form__field textarea,
+.form__field select  {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 0.625rem;
+}
+
+.form__submit{
+    background-color: var(--primary-button-color);
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 0.625rem;
+    transition: background-color .3s ease-out;
+    font-size: 0.85rem;
+    border: none;
+}
+
+.form__submit:hover{
+    background-color: #688a04;
+    cursor: pointer;
 }
