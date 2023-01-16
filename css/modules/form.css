@@ -1,0 +1,22 @@
+.form{
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.form__fieldset{
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.form__legend{
+    box-sizing: border-box;
+    background-color: #005485;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 0.625rem;
+    margin-bottom: 2.5rem;
+}
