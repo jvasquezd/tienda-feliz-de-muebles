@@ -25,27 +25,30 @@
     text-align: center;
 }
 
+.max-width-md {
+    max-width: 18.75rem;
+}
 .gap-xs {
-    gap: calc(var(--padding-category) * 0.25);
+    gap: calc(var(--padding-section) * 0.25);
 }
 
 
 .gap-sm {
-    gap: calc(var(--padding-category) * 0.5);
+    gap: calc(var(--padding-section) * 0.5);
 }
 
 .gap-md {
-    gap: var(--padding-category);
+    gap: var(--padding-section);
 }
 
 .gap-lg {
-    gap: calc(var(--padding-category) * 1.5);
+    gap: calc(var(--padding-section) * 1.5);
 }
 
 .gap-xl {
-    gap: calc(var(--padding-category) * 2);
+    gap: calc(var(--padding-section) * 2);
 }
 
 .gap-2xl {
-    gap: calc(var(--padding-category) * 2.5);
+    gap: calc(var(--padding-section) * 2.5);
 }

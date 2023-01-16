@@ -89,6 +89,11 @@
     grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
 }
 
+.g-elements--gallery{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
 /* 
 @media (min-width: 768px){
     .g-elements--gallery {

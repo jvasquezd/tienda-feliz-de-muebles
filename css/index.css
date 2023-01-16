@@ -9,6 +9,8 @@
 @import './modules/cards.css';
 @import './modules/category.css';
 @import './modules/aboutus.css';
+@import './modules/blog.css';
+@import './modules/gallery.css';
 
 /* @import './modules/buttons.css'; */
 @import './modules/footer.css';
@@ -23,6 +25,7 @@
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto auto 1fr auto;
+    background-color: #fff;
 }
 
 .main {
