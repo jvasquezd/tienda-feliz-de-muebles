@@ -25,9 +25,12 @@
     text-align: center;
 }
 
-.max-width-md {
-    max-width: 18.75rem;
+@media (min-width: 768px) {
+    .max-width-md {
+        max-width: 18.75rem;
+    }
 }
+
 .gap-xs {
     gap: calc(var(--padding-section) * 0.25);
 }
@@ -51,4 +54,11 @@
 
 .gap-2xl {
     gap: calc(var(--padding-section) * 2.5);
+}
+
+
+@media (min-width: 768px){
+    .p-0{
+        padding: 0;
+    }
 }

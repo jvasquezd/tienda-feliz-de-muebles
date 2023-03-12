@@ -1,9 +1,9 @@
 .gallery__img{
-    display: flex;
+    max-width: 100%;
+    display: block;
     width: 22.5rem;
     height: 22.5rem;
     object-fit: cover;
-    /* height: 200; */
 }
 
 .gallery__list{
